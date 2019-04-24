@@ -62,3 +62,6 @@ export const installPlanPreviewModal = (props) => import('./installplan-preview-
 
 export const commandLineToolsModal = (props) => import('./command-line-tools-modal' /* webpackChunkName: "command-line-tools-modal" */)
   .then(m => m.commandLineToolsModal(props));
+
+  export const expandPVCModal = (props) => import('./expandPvc-modal' /* webpackChunkName: "expandPVC-namespace-modal" */)
+  .then(m => m.expandPVCModal(props));

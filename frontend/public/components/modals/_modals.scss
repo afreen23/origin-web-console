@@ -1,6 +1,10 @@
 .co-delete-modal {
   display: flex;
 }
+//@TODO: could be generic ?
+.co-expandPvc-modal {
+  display: flex;
+}
 
 .co-delete-modal__icon {
   font-size: 30px;
